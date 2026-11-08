@@ -56,13 +56,13 @@ export function Navbar() {
           {/* Auth actions: subdued text link plus the primary CTA */}
           <div className="flex items-center gap-8">
             <Link
-              href="/sign-in"
+              href="/signin"
               className="text-[15px] font-medium text-[#7b7bfb] transition-colors hover:text-[#9a9aff]"
             >
               Sign In
             </Link>
             <Link
-              href="/get-started"
+              href="/signup"
               className="rounded-[10px] bg-[#5b5bf5] px-5 py-[11px] text-[15px] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.18),0_8px_24px_-10px_rgba(99,102,241,0.9)] transition-colors hover:bg-[#6b6bff]"
             >
               Get Started
@@ -105,14 +105,14 @@ export function Navbar() {
           {/* Mobile auth actions, separated by a top border. */}
           <div className="mt-2 border-t border-white/[0.06] p-2">
             <Link
-              href="/sign-in"
+              href="/signin"
               onClick={() => setOpen(false)}
               className="block rounded-[10px] px-4 py-3 text-[15px] font-medium text-[#7b7bfb] transition-colors hover:bg-white/5 hover:text-[#9a9aff]"
             >
               Sign In
             </Link>
             <Link
-              href="/get-started"
+              href="/signup"
               onClick={() => setOpen(false)}
               className="mt-1 block rounded-[10px] bg-[#5b5bf5] px-4 py-3 text-center text-[15px] font-medium text-white transition-colors hover:bg-[#6b6bff]"
             >
