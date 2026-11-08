@@ -2,7 +2,6 @@ import { betterAuth } from "better-auth"
 import { MongoClient } from "mongodb"
 import { mongodbAdapter } from "@better-auth/mongo-adapter"
 
-
 const uri = process.env.MONGODB_URI
 
 if (!uri) {
